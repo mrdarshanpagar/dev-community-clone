@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px){
+    .header .headerContainer{
+
+        &__hamburgerMenu{
+            display: block;
+        }
+
+        &__searchBox{
+            display: none;
+        }
+
+        &__right{
+            .hidden-search{
+                display: flex;
+            }
+
+            button{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px){
+
+    .header .dropdown-menu{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 0.5rem;
+
+        ul li{
+            padding: 1rem;
+        }
+    }
+}
