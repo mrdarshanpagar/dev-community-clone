@@ -8,7 +8,7 @@
 html{
     // font-size: 100%;
     box-sizing: border-box;
-    // font-weight: 300;
+    font-weight: 500;
 }
 
 body{
@@ -48,6 +48,16 @@ ul{
     list-style: none;
 }
 
+.overlay{
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 300;
+}
 .main-container{
     height: 100vh;
     width: 100%;
