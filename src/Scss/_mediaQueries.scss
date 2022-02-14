@@ -38,3 +38,18 @@
         }
     }
 }
+
+@media only screen and (max-width: 1024px){
+    .header{
+        padding: 1rem;
+    }
+
+    .main-container{
+        grid-template-columns: 2fr 5fr;
+        padding: 1rem;
+    }
+    
+    .rightBar{
+        display: none;
+    }
+} 
