@@ -16,6 +16,7 @@
             align-items: center;
             padding: .5rem;
             color: var(--main-9);
+            max-width: 240px;
 
             i{
                 font-size: 1.25rem;
@@ -118,7 +119,7 @@
 
     &__content{
         min-width: 300px;
-        // width: 90%;
+        width: 90%;
         background-color: #fff;
         height: 100%;
         overflow-y: auto;
